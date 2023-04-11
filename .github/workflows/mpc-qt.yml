@@ -5,9 +5,11 @@ on:
     inputs:
       libmpv_url:
         description: 'input libmpv(mpv-dev-x86_64-*.7z) download url'
+        default: 'https://github.com/zhongfly/mpv-winbuild/releases/download/2023-04-10/mpv-x86_64-20230410-git-1808f26.7z'
         required: true
       yt-dlp_url:
         description: 'input yt-dlp.exe download url'
+        default: 'https://github.com/yt-dlp/yt-dlp/releases/download/2023.03.04/yt-dlp.exe'
         required: true
 
 jobs:
