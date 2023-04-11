@@ -3,10 +3,10 @@ name: Build mpc-qt
 on:
   workflow_dispatch:
     inputs:
-      libmpv_url:
+      libmpv_url: 'https://github.com/zhongfly/mpv-winbuild/releases/download/2023-04-10/mpv-x86_64-20230410-git-1808f26.7z'
         description: 'input libmpv(mpv-dev-x86_64-*.7z) download url'
         required: true
-      yt-dlp_url:
+      yt-dlp_url: 'https://github.com/yt-dlp/yt-dlp/releases/download/2023.03.04/yt-dlp.exe'
         description: 'input yt-dlp.exe download url'
         required: true
 
